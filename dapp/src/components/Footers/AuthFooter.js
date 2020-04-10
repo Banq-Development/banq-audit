@@ -44,7 +44,7 @@ class Login extends React.Component {
                 <Nav className="nav-footer justify-content-center justify-content-xl-end">
                   <NavItem>
                     <NavLink
-                      href="https://github.com/keviinfoes/Banq_audit/blob/master/LICENSE"
+                      href="https://github.com/Banq-Development/banq-audit/blob/master/LICENSE"
                       target="_blank"
                     >
                       License

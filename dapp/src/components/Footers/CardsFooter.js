@@ -48,7 +48,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/keviinfoes/Banq_audit"
+                  href="https://github.com/Banq-Development/banq-audit"
                   id="tooltip495507257"
                   target="_blank"
                 > 
@@ -78,7 +78,7 @@ class CardsFooter extends React.Component {
                 <Nav className="nav-footer justify-content-center justify-content-xl-end">
                   <NavItem>
                     <NavLink
-                      href="https://github.com/keviinfoes/Banq_audit/blob/master/LICENSE"
+                      href="https://github.com/Banq-Development/banq-audit/blob/master/LICENSE"
                       target="_blank"
                     >
                       License
