@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
-  Alert,
+  //Alert,
   Navbar,
   Container,
   Form,
@@ -59,10 +59,12 @@ class AdminNavbar extends React.Component {
             >
               {this.props.brandText}
             </Link>
+	    {/*
             <Alert color="default" className="ml-lg-auto">
               <strong>Beta!</strong> This is a beta release on the ropsten testnet,
               get test ether <a className="text-primary" href="https://faucet.metamask.io/">here</a>
             </Alert>
+	    */}
             <Form className="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
               <FormGroup className="mb-0">
                 <InputGroup className="input-group-alternative">
