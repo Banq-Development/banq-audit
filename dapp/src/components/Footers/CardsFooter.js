@@ -41,7 +41,7 @@ class CardsFooter extends React.Component {
                   Check out the source code on our github page!
                 </h3>
                 <h4 className="mb-0 font-weight-light">
-                  If you have comments or would like to contribute. Please contact us.
+                  If you have comments or would like to contribute. Please contact us at support@banq.link.
                 </h4>
               </Col>
               <Col className="text-lg-right text-center btn-wrapper" lg="6">

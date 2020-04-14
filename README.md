@@ -27,3 +27,5 @@ By implementing a reliability point system auditee can have audits from auditors
 ## Current instance deployed contracts - Ropsten
 - **BanqAudit.sol**: 0x0571727FBA960DaaEEb1bC15db12839Fe8251ed2 
 - **ConvertBytes.sol**: 0x915c29f77161F08990AD812cDcf15E993aBC6C00
+
+If you have comments or would like to contribute. Please contact us at support@banq.link.
