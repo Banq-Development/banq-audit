@@ -49,7 +49,7 @@ class Hero extends React.Component {
 
                     <p className="lead text-white">
                       The decentralized marketplace for code audits.
-                      Find a auditor for your smart contract, or become auditor and receive
+                      Find an auditor for your smart contract, or become auditor and receive
                       rewards.
                     </p>  
                     <div className="mt-5">
