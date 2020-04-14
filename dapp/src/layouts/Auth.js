@@ -77,9 +77,9 @@ class Auth extends React.Component {
   }
   async getWeb3Data () {
     const instanceBanqAudit = require("../components/web3/BanqAudit.json");
-    const addressBanqAudit = "0x0571727FBA960DaaEEb1bC15db12839Fe8251ed2";
+    const addressBanqAudit = "0x777DEFE54A17C2A2534E05961e38556F93C56A35";
     const instanceConvertBytes = require("../components/web3/ConvertBytes.json");
-    const addressConvertBytes = "0x915c29f77161F08990AD812cDcf15E993aBC6C00";
+    const addressConvertBytes = "0x3f77BFda356d8081842dE51cF4d167A699d328b7";
     
     if (web3 !== '') {
       await this.setState({instanceBanqAudit: await new web3.eth.Contract(instanceBanqAudit.abi,

@@ -101,7 +101,7 @@ class Report extends React.Component {
   }
   async getWeb3Data () {
     const instanceBanqAudit = require("../../components/web3/BanqAudit.json");
-    const addressBanqAudit = "0x0571727FBA960DaaEEb1bC15db12839Fe8251ed2";
+    const addressBanqAudit = "0x777DEFE54A17C2A2534E05961e38556F93C56A35";
     if (web3 !== '') {
       await this.setState({instanceBanqAudit: await new web3.eth.Contract(instanceBanqAudit.abi,
       addressBanqAudit)});

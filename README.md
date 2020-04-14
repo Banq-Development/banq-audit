@@ -24,7 +24,12 @@ By implementing a reliability point system auditee can have audits from auditors
 3. Install dependencies: `npm install`.
 4. Start application `npm start`.
 
-## Current instance deployed contracts - Ropsten
+## Current instance deployed contracts 
+Main
+- **BanqAudit.sol**: 0x777DEFE54A17C2A2534E05961e38556F93C56A35 
+- **ConvertBytes.sol**: 0x3f77BFda356d8081842dE51cF4d167A699d328b7
+
+Ropsten
 - **BanqAudit.sol**: 0x0571727FBA960DaaEEb1bC15db12839Fe8251ed2 
 - **ConvertBytes.sol**: 0x915c29f77161F08990AD812cDcf15E993aBC6C00
 

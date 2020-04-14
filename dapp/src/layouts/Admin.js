@@ -32,7 +32,7 @@ import Profile from "../views/examples/Profile.js";
 
 let web3 = "";
 const instanceBanqAudit = require("../components/web3/BanqAudit.json");
-const addressBanqAudit = "0x0571727FBA960DaaEEb1bC15db12839Fe8251ed2";
+const addressBanqAudit = "0x777DEFE54A17C2A2534E05961e38556F93C56A35";
 class Admin extends React.Component {
   constructor(props) {    
     super(props);
