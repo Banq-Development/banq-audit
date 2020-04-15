@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
-  //Alert,
+  Alert,
   Navbar,
   Container,
   Form,
