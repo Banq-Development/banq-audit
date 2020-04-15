@@ -109,7 +109,7 @@ class Admin extends React.Component {
     }
     // Non-DApp Browsers
     else {
-      this.setState({metamask: false});
+      this.setState({web3Available: false});
     }
     this.getWeb3Data(start);
   }
@@ -338,6 +338,7 @@ class Admin extends React.Component {
             {...this.props}
             brandText={this.getBrandText(this.props.location.pathname)}
             getAudit={this.getAudit}
+	    web3Available={this.state.web3Available}
           />
           <Switch>
             {this.getRoutes(routes)}

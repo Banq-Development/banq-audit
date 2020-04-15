@@ -59,12 +59,20 @@ class AdminNavbar extends React.Component {
             >
               {this.props.brandText}
             </Link>
-	    {/*
+	    {this.props.web3Available === false ?(
+              <Alert color="default" className="ml-lg-auto">
+                <strong>No web3!</strong> You are not connected to the ethereum blockchain,
+                please use a web3 plugin like <a className="text-primary" href="https://metamask.io">metamask</a>
+              </Alert>
+            ):(
+              <div/>
+            )}
+            {/*
             <Alert color="default" className="ml-lg-auto">
               <strong>Beta!</strong> This is a beta release on the ropsten testnet,
               get test ether <a className="text-primary" href="https://faucet.metamask.io/">here</a>
             </Alert>
-	    */}
+            */}
             <Form className="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
               <FormGroup className="mb-0">
                 <InputGroup className="input-group-alternative">
