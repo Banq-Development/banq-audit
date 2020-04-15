@@ -24,6 +24,8 @@ By implementing a reliability point system auditee can have audits from auditors
 3. Install dependencies: `npm install`.
 4. Start application `npm start`.
 
+*If you deployed your own instance of the smart contracts adjust the contract addresses in the front end files admin.js, auth.js and report.js.
+
 ## Current instance deployed contracts 
 Main
 - **BanqAudit.sol**: 0x777DEFE54A17C2A2534E05961e38556F93C56A35 
