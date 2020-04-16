@@ -86,6 +86,7 @@ contract BanqAudit {
     function changeDev(address payable _dev) external returns (bool) {
         require(msg.sender == dev, "change developer: not the current developer");
         dev = _dev;
+	return true;
     }
 
     /**
