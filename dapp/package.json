@@ -37,7 +37,7 @@
   ],
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.12.1",
-    "chart.js": "2.9.3",
+    "chart.js": "2.9.4",
     "classnames": "2.2.6",
     "headroom.js": "^0.11.0",
     "identicon.js": "^2.3.3",
